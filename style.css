@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+/* font-family: 'Montserrat', sans-serif; */
+@font-face {
+  font-family: "Arial";
+  src: url(arial.ttf);
+}
+@font-face {
+  font-family: "Bebas";
+  src: url(bebas_regular.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.logo {
+  width: 100%;
+  height: 100px;
+  color: white;
+  font-size: 23px;
+  background-color: #eaaf46;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 105px;
+}
+.intro {
+  width: 100%;
+  height: 1700px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  max-width: 650px;
+  height: 100%;
+}
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.uptitle {
+  font-family: "Bebas";
+  text-transform: uppercase;
+  font-size: 85px;
+  letter-spacing: 5px;
+  color: #eaaf46;
+  padding-top: 20px;
+}
+.undtitle {
+  font-family: "Arial";
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding-bottom: 40px;
+}
+.photo img {
+  width: 100%;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+}
+
+.news h2 {
+  font-family: "Bebas";
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 50px 0 25px 0;
+}
+.news h3 {
+  font-family: "Bebas";
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.football img {
+  width: 320px;
+}
+.football {
+  display: flex;
+  padding-bottom: 40px;
+}
+.football-info {
+  font-family: "Arial";
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px 0;
+}
+.football-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-left: 20px;
+}
+.btn {
+  font-family: "Bebas";
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  width: 180px;
+  background-color: #eaaf46;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+/* DANCE */
+.dance img {
+  width: 250px;
+}
+
+.dance {
+  display: flex;
+  padding-bottom: 40px;
+}
+.dance-info {
+  font-family: "Arial";
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px 0;
+}
+.dance-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: flex-end;
+  padding-right: 20px;
+}
+.dance-title-inner {
+  padding-bottom: 20px;
+}
+.btn {
+  font-family: "Bebas";
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  width: 180px;
+  background-color: #eaaf46;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+.btn-outer {
+  padding-right: 300px;
+}
+
+/* COLLEGE */
+.college img {
+  width: 320px;
+}
+.college {
+  display: flex;
+}
+.college-info {
+  font-family: "Arial";
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px 0;
+}
+.college-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-left: 20px;
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  font-family: "Arial";
+  font-size: 18px;
+}
+.social {
+  width: 100%;
+  height: 135px;
+  background-color: #eaaf46;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.follow {
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+.social img {
+  width: 40px;
+}
+.nav {
+  height: 90px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
