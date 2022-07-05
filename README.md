@@ -1,2 +1,2 @@
 # Just layot
-https://moneyandfame7.github.io/html-csstemplate1/
+https://moneyandfame7.github.io/html-css-template1/
